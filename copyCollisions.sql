@@ -1,0 +1,3 @@
+copy public.collisions (date, time, borough, zipcode, latitude, longitude, location, on_street, cross_street, off_street, inj, kill, ped_inj, ped_kill, cyc_inj, cyc_kill, mot_inj, mot_kill, cfveh1, cfveh2, cfveh3, cfveh4, cfveh5, uniquekey, vehcode1, vehcode2, vehcode3, vehcode4, vehcode5)
+FROM 'D:/Aditya/Documents/School/OSU/MS/Research/Cesium-Data-Exp/NYPD_Motor_Vehicle_Collisions.csv' 
+CSV HEADER QUOTE '"';

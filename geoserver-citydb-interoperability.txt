@@ -1,0 +1,7 @@
+TO RUN CITYDB:
+COPY postgis-jdbc-2.2.1.jar AND postgresql-9.4.1209.jar INTO ./Tomcat 9.0/lib
+COMMENT OUT CORS FILTER FROM ./conf/web.xml
+
+TO RUN GEOSERVER:
+REMOVE postgis-jdbc-2.2.1.jar AND postgresql-9.4.1209.jar FROM ./Tomcat 9.0/lib
+UNCOMMENT CORS FILTER FROM ./conf/web.xml
