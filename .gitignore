@@ -45,3 +45,19 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.kml
+*.gml
+*.zip
+*.json
+*.jpg
+*.png
+*.b3dm
+*.gltf
+*.pyc
+gpxpy/__init__.py
+gpxpy/geo.py
+gpxpy/gpx.py
+gpxpy/gpxfield.py
+*.gpx
+NYPD_Motor_Vehicle_Collisions.csv
+NYC_CityGML_LoD2_Roadbed/Roadbed/72588/id_de51b11f-3833-499a-b6b5-49c927c5cb3d.dae
